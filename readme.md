@@ -1,1 +1,1 @@
-[brillout.github.io/open-source-forum-rules](https://brillout.github.io/open-source-forum-rules/).
+[brillout.github.io/rules](https://brillout.github.io/rules/).

@@ -7,6 +7,6 @@ const config: UserConfig = {
   preview: {
     port: 3000
   },
-  base: '/open-source-forum-rules/'
+  base: '/rules/'
 }
 export default config
