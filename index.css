@@ -55,22 +55,42 @@ blockquote {
 
 blockquote.info::before {
   content: '\2139\FE0F';
+  font-size: 1.1em;
   font-family: emoji;
 }
+blockquote.bad::before {
+  content: '\274C';
+  font-size: 1.15em;
+  margin-left: -10px;
+  margin-right: -3px;
+}
+blockquote.good::before {
+  content: '\2705';
+  font-size: 1.15em;
+  margin-left: -10px;
+  margin-right: -3px;
+}
 
+span.quote,
 blockquote.quote {
   font-style: italic;
+}
+blockquote.quote {
   padding: 10px 8px;
 }
+span.quote::before,
+span.quote::after,
 blockquote.quote::before,
 blockquote.quote::after {
   vertical-align: middle;
   font-size: 2em;
   line-height: 0px;
 }
+span.quote::before,
 blockquote.quote::before {
   content: '\201C  ';
 }
+span.quote::after,
 blockquote.quote::after {
   content: '\201D';
   padding-left: 2px;
